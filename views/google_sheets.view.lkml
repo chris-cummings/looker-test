@@ -90,6 +90,13 @@ view: google_sheets {
     sql: ${TABLE}.project ;;
   }
 
+  dimension: latlong {
+    type: location
+    sql_latitude: ${latitude} ;;
+    sql_longitude: ${longitude} ;;
+
+  }
+
   dimension: sac_id {
     type: string
     sql: ${TABLE}.sac_id ;;
