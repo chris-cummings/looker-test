@@ -8,3 +8,5 @@ datagroup: chris_test_default_datagroup {
 }
 
 persist_with: chris_test_default_datagroup
+
+explore: google_sheets {}
